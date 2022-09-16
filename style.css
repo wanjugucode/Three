@@ -182,10 +182,11 @@ input#toggle:checked ~ #show-menu .btn:nth-child(9) {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
+.closeBtn
 .menuBtn {
   position: absolute;
-
 }
+
 .btn:nth-child{
   transition-delay: 0.10s;
   transform: rotate(120deg);
