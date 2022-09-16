@@ -21,8 +21,8 @@ input {
   justify-content: center;
   top: 50%;
   left: 50%;
-  right: 48%;
-  bottom: 48%;
+  right: 50%;
+  bottom: 50%;
   /* margin-left: 25px;
   margin-top: -25px;*/
 }
@@ -49,7 +49,7 @@ input {
   right: 2%;
   left: 15%;
   bottom: 50%;
-  
+
 }
 .icon:hover{
   box-shadow: 0 1px 15px rgba(4, 242, 250, 0.438), 0 1px 28px rgba(5, 219, 247, 0.815);
