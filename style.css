@@ -227,8 +227,7 @@ align-items: center;
 .new_logo img{
   display: block;
   margin: 8px;
-  margin-left: 2%;
-  margin-top: 20px;
+  margin-left: 0%;
   height: 100px;
   width: 100px;
   
@@ -237,9 +236,9 @@ align-items: center;
 
 .quote p{
   visibility: visible;
-  margin-left:75%;
+  margin-left:79%;
   width: 300px;
-  background:rgb(25, 46, 78);
+  background:rgb(3, 57, 82); ;
   box-shadow: 0 1px 15px rgba(4, 242, 250, 0.438), 0 1px 28px rgba(5, 219, 247, 0.815);
   border: 0;
   font-size: 24px;
@@ -247,9 +246,7 @@ align-items: center;
   background:rgb(3, 57, 82);
   font-size: 20px; 
   line-height: 1.5;
-  border-radius: 10px;
-  padding: 10px;
-  
+  margin-top: 8px;
   
   
   } 
