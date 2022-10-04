@@ -22,7 +22,7 @@ input {
   top: 45%;
   left: 35%;
   right: 50%;
-  bottom: 45%;
+  bottom:45%;
   place-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -34,8 +34,8 @@ input {
 }
 
 .icon {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
@@ -52,9 +52,11 @@ input {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  right: 84%;
+ margin-top:30px ;
   left: 16%;
-  bottom: 33%;
+  right: 84%;
+
+
  
 
 }
@@ -82,7 +84,8 @@ input {
   box-shadow: 0 1px 10px black;
   margin: -5%;
   margin-left: 30%;
-  top: 50;
+
+  top: 40%;
   bottom: 50;
   
 
