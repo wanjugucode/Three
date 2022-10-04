@@ -134,10 +134,11 @@ input#toggle:checked ~ #show-menu .btn:nth-child(6) {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 .material-icons.md-36 {
-  font-size: 55px;
+  font-size: 45px;
   color: white;
   transition: all 0.8s;
   transform: rotate(360deg);
+ 
  
 }
 .btn {
@@ -255,10 +256,8 @@ align-items: center;
   background:rgb(3, 57, 82);
   font-size: 18px; 
   line-height: 1.5;
-  padding: 5px;
-
   color: white;
-  
+  padding: 10px;
   
   
   } 
