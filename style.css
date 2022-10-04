@@ -20,7 +20,7 @@ input {
   display: flex;
   justify-content: center;
   top: 45%;
-  left: 45%;
+  left: 35%;
   right: 50%;
   bottom: 45%;
   place-items: center;
@@ -57,6 +57,72 @@ input {
   bottom: 50%;
 
 }
+.btn {
+  font-weight: bolder;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transition: all 0.8s;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0.2;
+  box-shadow: 0 1px 10px black;
+  margin: -5%;
+  margin-left: 33%;
+  
+  
+
+ 
+}
+.new_logo img{
+  display: block;
+  margin-top: 30px;
+  margin-left: 2%;
+  height: 100px;
+  width: 100px;
+  top: 10%;
+  
+  }
+  .quote{
+    margin-top: -8%;
+  }
+
+.quote p{
+  visibility: visible;
+  margin-left:79%;
+ top:100%;
+  width: 300px;
+  background:rgb(3, 57, 82); ;
+  box-shadow: 0 1px 15px rgba(4, 242, 250, 0.438), 0 1px 28px rgba(5, 219, 247, 0.815);
+  border: 0;
+  font-size: 24px;
+  right: 0;
+  background:rgb(3, 57, 82);
+  font-size: 20px; 
+  line-height: 1.5;
+  
+  
+  
+  } 
+  p ion-icon{
+      height: 50px;
+      width: 50px;
+      visibility: visible;
+      color: white;
+  }
+  
 .icon:hover{
   box-shadow: 0 1px 15px rgba(4, 242, 250, 0.438), 0 1px 28px rgba(5, 219, 247, 0.815);
 }
@@ -140,34 +206,7 @@ input#toggle:checked ~ #show-menu .btn:nth-child(6) {
   transform: rotate(360deg);
  
 }
-.btn {
-  font-weight: bolder;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-  transition: all 0.8s;
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  position: absolute;
-  overflow: hidden;
-  cursor: pointer;
-  opacity: 0.2;
-  box-shadow: 0 1px 10px black;
-  left: 50%;
-  bottom: 50%;
-  right: 50%;
 
- 
-}
 .btn:not(:first-child) {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -224,36 +263,3 @@ align-items: center;
   transition: 0.1s ease;
 
 }
-.new_logo img{
-  display: block;
-  margin: 8px;
-  margin-left: 0%;
-  height: 100px;
-  width: 100px;
-  
-  }
-  
-
-.quote p{
-  visibility: visible;
-  margin-left:79%;
-  width: 300px;
-  background:rgb(3, 57, 82); ;
-  box-shadow: 0 1px 15px rgba(4, 242, 250, 0.438), 0 1px 28px rgba(5, 219, 247, 0.815);
-  border: 0;
-  font-size: 24px;
-  right: 0;
-  background:rgb(3, 57, 82);
-  font-size: 20px; 
-  line-height: 1.5;
-  margin-top: 8px;
-  
-  
-  } 
-  p ion-icon{
-      height: 50px;
-      width: 50px;
-      visibility: visible;
-      color: white;
-  }
-  
