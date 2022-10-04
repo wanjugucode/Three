@@ -37,7 +37,7 @@ input {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  position: relative;
+  position: fixed;
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 1px 10px black;
@@ -53,9 +53,11 @@ input {
   align-items: center;
   text-align: center;
   right: 60%;
-  left: 15%;
+  left: 45%;
+  bottom: 35%;
+  top:45%;
   
-  top:75%;
+
 
 }
 .icon:hover{
