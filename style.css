@@ -37,7 +37,7 @@ input {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  position: fixed;
+  position: flex;
   overflow: hidden;
   cursor: pointer;
   box-shadow: 0 1px 10px black;
