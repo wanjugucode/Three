@@ -34,8 +34,8 @@ input {
 }
 
 .icon {
-  width: 130px;
-  height: 130px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   position: relative;
   overflow: hidden;
@@ -106,35 +106,35 @@ input {
   transition-delay: 0.7s;
 }
 input#toggle:checked ~ #show-menu .btn:nth-child(2) {
-  top: -260px;
+  top: -200px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 
 input#toggle:checked ~ #show-menu .btn:nth-child(3) {
-  top: -160px;
-  left: 160px;
+  top: -140px;
+  left: 140px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 input#toggle:checked ~ #show-menu .btn:nth-child(4) {
-  left: 260px;
+  left: 200px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 input#toggle:checked ~ #show-menu .btn:nth-child(5) {
-  top: 160px;
-  left: 160px;
+  top: 140px;
+  left: 140px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 input#toggle:checked ~ #show-menu .btn:nth-child(6) {
-  top: 260px;
+  top: 200px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 .material-icons.md-36 {
-  font-size: 45px;
+  font-size: 35px;
   color: white;
   transition: all 0.8s;
   transform: rotate(360deg);
@@ -155,8 +155,8 @@ input#toggle:checked ~ #show-menu .btn:nth-child(6) {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
   transition: all 0.8s;
-  width: 110px;
-  height: 110px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   position: absolute;
   overflow: hidden;
@@ -167,7 +167,7 @@ input#toggle:checked ~ #show-menu .btn:nth-child(6) {
   bottom: 50%;
   right: 50%;
   margin-top:-30px ;
-  top: 50%;
+
 
  
 }
@@ -177,19 +177,19 @@ input#toggle:checked ~ #show-menu .btn:nth-child(6) {
   z-index: -2;
 }
 input#toggle:checked ~ #show-menu .btn:nth-child(7) {
-  top: 160px;
-  left: -160px;
+  top: 140px;
+  left: -140px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 input#toggle:checked ~ #show-menu .btn:nth-child(8) {
-  left: -260px;
+  left: -200px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 input#toggle:checked ~ #show-menu .btn:nth-child(9) {
-  top: -160px;
-  left: -160px;
+  top: -140px;
+  left: -140px;
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
@@ -246,7 +246,7 @@ align-items: center;
 }
 .quote p{
   visibility: visible;
-  margin-left:79%;
+  margin-left:75%;
  top:100%;
   width: 300px;
   background:rgb(3, 57, 82); ;
