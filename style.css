@@ -42,7 +42,7 @@ input {
   cursor: pointer;
   box-shadow: 0 1px 10px black;
   color: white;
-  font-size: 30px;
+  font-size: 33px;
   display: flex;
   place-items: center;
   -webkit-box-pack: center;
@@ -79,11 +79,8 @@ input {
   cursor: pointer;
   opacity: 0.2;
   box-shadow: 0 1px 10px black;
-  margin: 5%;
-  margin-left: 32%;
- 
-  
-  
+  margin: -5%;
+  margin-left: 33%;
   
   
 
@@ -200,7 +197,7 @@ input#toggle:checked ~ #show-menu .btn:nth-child(6) {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 .material-icons.md-36 {
-  font-size: 45px;
+  font-size: 48px;
   color: white;
   transition: all 0.8s;
   transform: rotate(360deg);
